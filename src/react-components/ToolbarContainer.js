@@ -31,7 +31,10 @@ export function ToolbarContainer({ onGLBUploaded, randomizeConfig }) {
         <button onClick={randomizeConfig}>Randomize avatar</button>
         <button onClick={dispatchResetView}>Reset camera view</button>
         <button onClick={dispatchExportAvatar} className="primary">
-          Export avatar
+          Send Hubs Avatar
+        </button>
+        <button onClick={dispatchExportAvatar} className="primary">
+          Download Avatar
         </button>
       </div>
       <div className="toolbarNotice">
